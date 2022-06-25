@@ -1,0 +1,1157 @@
+.greek-hebrew {
+	color: red;
+	font-family: 'SBL Greek', 'SBL Hebrew', 'Serto Jerusalem', helvetica
+}
+
+.ancient-hebrew {
+	font-family: 'Ancient Hebrew'
+}
+
+.translit {
+	color: green;
+	font-family: 'SBL BibLit', Arial, Helvetica, sans-serif;
+	direction: ltr
+}
+
+/*  Flexbox  CSS  */
+.flexbox {
+	display: flex
+}
+
+.flexbox-column-wrap {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap
+}
+
+.flexbox-column-nowrap {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap
+}
+
+.flexbox-column-wrap-reverse {
+	display: flex;
+	flex-direction: column-reverse;
+	flex-wrap: wrap
+}
+
+.flexbox-row-wrap {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap
+}
+
+.flexbox-row-nowrap {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap
+}
+
+.flexbox-row-wrap-reverse {
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap
+}
+
+.flexbox-row-nowrap-reverse {
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: nowrap
+}
+
+.jc-start {
+	justify-content: flex-start
+}
+
+.jc-end {
+	justify-content: flex-end
+}
+
+/*  Main Section CSS  */
+.content {
+	margin: 0 auto;
+	text-align: center;
+	min-height: 800px;
+	display: flex;
+	justify-content: center;
+	background-color: #fff
+}
+
+.main,
+.side {
+	max-width: 100%;
+	padding: 10px
+}
+
+.main {
+	min-width: 675px;
+	padding: 25px;
+	text-align: left;
+	flex: 1 1 auto;
+	line-height: 1.5
+}
+
+.side {
+	min-width: 350px;
+	text-align: center;
+	border-left: 1px solid #dadada;
+	flex: 0 0 350px
+}
+
+/*  Font sizes  */
+.fs-9 {
+	font-size: 9px
+}
+
+.fs-10 {
+	font-size: 10px
+}
+
+.fs-11 {
+	font-size: 11px
+}
+
+.fs-12 {
+	font-size: 12px
+}
+
+.fs-13 {
+	font-size: 13px
+}
+
+.fs-14 {
+	font-size: 14px
+}
+
+.fs-15 {
+	font-size: 15px
+}
+
+.fs-17 {
+	font-size: 17px
+}
+
+.fs-19 {
+	font-size: 19px
+}
+
+.fs-21 {
+	font-size: 21px
+}
+
+.fs-23 {
+	font-size: 23px
+}
+
+.fs-25 {
+	font-size: 25px
+}
+
+.fs-27 {
+	font-size: 27px
+}
+
+.fs-29 {
+	font-size: 29px
+}
+
+.fs-31 {
+	font-size: 31px
+}
+
+.fs-35 {
+	font-size: 35px
+}
+
+.fs-45 {
+	font-size: 45px
+}
+
+/*  Font styles  */
+.bold {
+	font-weight: 800
+}
+
+.normal {
+	font-weight: 400
+}
+
+.italic {
+	font-style: italic
+}
+
+.divider {
+	padding-top: 20px;
+	border-top: 1px solid #dadada
+}
+
+.lh-20 {
+	line-height: 20px
+}
+
+.lh-30 {
+	line-height: 30px
+}
+
+.lh-40 {
+	line-height: 40px
+}
+
+.lh-50 {
+	line-height: 50px
+}
+
+/*  Widths */
+.wp-10 {
+	width: 10%
+}
+
+.wp-15 {
+	width: 15%
+}
+
+.wp-20 {
+	width: 20%
+}
+
+.wp-25 {
+	width: 25%
+}
+
+.wp-30 {
+	width: 30%
+}
+
+.wp-40 {
+	width: 40%
+}
+
+.wp-50 {
+	width: 50%
+}
+
+.wp-75 {
+	width: 74%
+}
+
+.wp-80 {
+	width: 80%
+}
+
+.wp-90 {
+	width: 90%
+}
+
+.wp-95 {
+	width: 95%
+}
+
+.wp-100 {
+	width: 100%
+}
+
+.w-20 {
+	width: 20px
+}
+
+.w-30 {
+	width: 30px
+}
+
+.w-40 {
+	width: 40px
+}
+
+.w-50 {
+	width: 50px
+}
+
+.w-70 {
+	width: 70px
+}
+
+.w-100 {
+	width: 100px
+}
+
+.w-120 {
+	width: 120px
+}
+
+.w-150 {
+	width: 150px
+}
+
+.w-175 {
+	width: 175px
+}
+
+.w-200 {
+	width: 190px
+}
+
+.w-250 {
+	width: 250px
+}
+
+.w-275 {
+	width: 275px
+}
+
+.w-300 {
+	width: 300px
+}
+
+.w-350 {
+	width: 350px
+}
+
+.w-400 {
+	width: 390px
+}
+
+.w-450 {
+	width: 450px
+}
+
+.w-500 {
+	width: 490px
+}
+
+.w-600 {
+	width: 600px
+}
+
+.mw-850 {
+	max-width: 850px
+}
+
+/*  Heights */
+.h-20 {
+	height: 20px
+}
+
+.h-25 {
+	height: 25px
+}
+
+.h-30 {
+	height: 30px
+}
+
+.h-35 {
+	height: 35px
+}
+
+.h-40 {
+	height: 40px
+}
+
+.h-45 {
+	height: 45px
+}
+
+.h-50 {
+	height: 50px
+}
+
+.h-55 {
+	height: 55px
+}
+
+.h-60 {
+	height: 60px
+}
+
+.h-70 {
+	height: 70px
+}
+
+.h-150 {
+	height: 150px
+}
+
+.h-200 {
+	height: 200px
+}
+
+.h-250 {
+	height: 250px
+}
+
+.h-350 {
+	height: 350px
+}
+
+.h-500 {
+	height: 500px
+}
+
+.h-600 {
+	height: 600px
+}
+
+.h-auto {
+	height: auto
+}
+
+@media print {
+	@page {
+		margin: .5cm
+	}
+
+	.qr-code {
+		display: none !important
+	}
+
+	.header,
+	.menubar,
+	.side,
+	.footer {
+		display: none !important;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.qr-code {
+		display: none !important
+	}
+
+	.inline-table {
+		display: none
+	}
+
+	ol,
+	ul {
+		margin-left: -22px
+	}
+
+	.icon {
+		margin-left: 4px
+	}
+
+	.container-overall {
+		position: absolute
+	}
+
+	.desktop-only {
+		display: none
+	}
+
+	.main {
+		min-width: 300px;
+		padding: 10px 25px
+	}
+
+	h1 {
+		font-size: 26px
+	}
+
+	h2 {
+		font-size: 24px
+	}
+
+	.f19 {
+		font-size: 15px
+	}
+
+	.s-1 {
+		width: 8.33%
+	}
+
+	.s-2 {
+		width: 16.66%
+	}
+
+	.s-3 {
+		width: 25%
+	}
+
+	.s-4 {
+		width: 33.33%
+	}
+
+	.s-5 {
+		width: 41.66%
+	}
+
+	.s-6 {
+		width: 50%
+	}
+
+	.s-7 {
+		width: 58.33%
+	}
+
+	.s-8 {
+		width: 66.66%
+	}
+
+	.s-9 {
+		width: 75%
+	}
+
+	.s-10 {
+		width: 83.33%
+	}
+
+	.s-11 {
+		width: 91.66%
+	}
+
+	.s-12 {
+		width: 100%
+	}
+
+	.header .logo .logo-text {
+		font-size: 43px;
+		top: 31px;
+		left: 26px
+	}
+
+	.header .logo .tagline {
+		display: none
+	}
+
+	.bible-selector-list {
+		height: 425px;
+		width: 260px;
+		left: 30px
+	}
+
+	.poetry {
+		margin-left: 30px
+	}
+
+	.poetry .versenum {
+		margin-left: 5px;
+		margin-right: 0px;
+	}
+
+	.long-version {
+		display: none
+	}
+
+	.arrow-up:after {
+		top: -5px
+	}
+
+	.arrow-down:after {
+		top: -5px
+	}
+
+	.menu-ul {
+		columns: 2
+	}
+
+	/*  McGee Audio Player */
+	.mcgee-audio {
+		width: 150px
+	}
+
+	.video-ad {
+		height: 250px;
+	}
+}
+
+@media screen and (min-width: 375px) and (max-width: 599px) {
+	.qr-code {
+		display: none !important
+	}
+
+	.inline-table {
+		display: none
+	}
+
+	ol,
+	ul {
+		margin-left: -22px
+	}
+
+	.icon {
+		margin-left: 4px
+	}
+
+	.container-overall {
+		position: absolute
+	}
+
+	.desktop-only {
+		display: none
+	}
+
+	.main {
+		min-width: 320px;
+		padding: 10px 25px
+	}
+
+	h1 {
+		font-size: 30px
+	}
+
+	h2 {
+		font-size: 26px
+	}
+
+	.m-1 {
+		width: 8.33%
+	}
+
+	.m-2 {
+		width: 16.66%
+	}
+
+	.m-3 {
+		width: 25%
+	}
+
+	.m-4 {
+		width: 33.33%
+	}
+
+	.m-5 {
+		width: 41.66%
+	}
+
+	.m-6 {
+		width: 50%
+	}
+
+	.m-7 {
+		width: 58.33%
+	}
+
+	.m-8 {
+		width: 66.66%
+	}
+
+	.m-9 {
+		width: 75%
+	}
+
+	.m-10 {
+		width: 83.33%
+	}
+
+	.m-11 {
+		width: 91.66%
+	}
+
+	.m-12 {
+		width: 100%
+	}
+
+	.header .logo .tagline {
+		display: none
+	}
+
+	.bible-selector-list {
+		height: 525px;
+		width: 365px;
+		left: 30px
+	}
+
+	.long-version {
+		display: none
+	}
+
+	.arrow-up:after {
+		top: -5px
+	}
+
+	.arrow-down:after {
+		top: 5px
+	}
+
+	.menu-ul {
+		columns: 2
+	}
+
+	/*  McGee Audio Player */
+	.mcgee-audio {
+		width: 160px
+	}
+
+	/*  Resource Box  */
+	.rb-width {
+		width: 170px
+	}
+
+	.video-ad {
+		height: 250px
+	}
+}
+
+/* For Tablets: Portrait Mode*/
+@media only screen and (min-width: 600px) and (orientation: portrait) {
+	.qr-code {
+		display: none !important
+	}
+
+	.inline-table {
+		display: none
+	}
+
+	.desktop-only {
+		display: block
+	}
+
+	.main {
+		min-width: 415px;
+		padding: 10px 25px
+	}
+
+	.tp-1 {
+		width: 8.33%
+	}
+
+	.tp-2 {
+		width: 16.66%
+	}
+
+	.tp-3 {
+		width: 25%
+	}
+
+	.tp-4 {
+		width: 33.33%
+	}
+
+	.tp-5 {
+		width: 41.66%
+	}
+
+	.tp-6 {
+		width: 50%
+	}
+
+	.tp-7 {
+		width: 58.33%
+	}
+
+	.tp-8 {
+		width: 66.66%
+	}
+
+	.tp-9 {
+		width: 75%
+	}
+
+	.tp-10 {
+		width: 83.33%
+	}
+
+	.tp-11 {
+		width: 91.66%
+	}
+
+	.tp-12 {
+		width: 100%
+	}
+
+	.bible-selector-list {
+		height: 600px;
+		width: 420px;
+		left: 30px
+	}
+
+	.menu-ul {
+		columns: 2
+	}
+
+	.menu-ul {
+		margin: 5px
+	}
+
+	.arrow-up:after {
+		top: -5px
+	}
+
+	.arrow-down:after {
+		top: 5px
+	}
+
+	/*  McGee Audio Player */
+	.mcgee-audio {
+		width: 200px
+	}
+
+	/*  Resource Box  */
+	.rb-width {
+		width: 185px
+	}
+}
+
+/* For Tablets: Landscape Mode*/
+@media screen and (min-width: 620px) and (max-width: 1024px) and (orientation: landscape) {
+	.logo .yellow-eye {
+		position: absolute;
+		color: #deac27;
+		top: -31px;
+		left: 164px;
+		font-size: 49px
+	}
+
+	.qr-code {
+		display: none !important
+	}
+
+	.inline-table {
+		display: none
+	}
+
+	.desktop-only {
+		display: block
+	}
+
+	.main {
+		min-width: 670px;
+		padding: 10px 25px
+	}
+
+	.tl-1 {
+		width: 8.33%
+	}
+
+	.tl-2 {
+		width: 16.66%
+	}
+
+	.tl-3 {
+		width: 25%
+	}
+
+	.tl-4 {
+		width: 33.33%
+	}
+
+	.tl-5 {
+		width: 41.66%
+	}
+
+	.tl-6 {
+		width: 50%
+	}
+
+	.tl-7 {
+		width: 58.33%
+	}
+
+	.tl-8 {
+		width: 66.66%
+	}
+
+	.tl-9 {
+		width: 75%
+	}
+
+	.tl-10 {
+		width: 83.33%
+	}
+
+	.tl-11 {
+		width: 91.66%
+	}
+
+	.tl-12 {
+		width: 100%
+	}
+
+	.bible-selector-list {
+		height: 600px;
+		width: 420px;
+		left: 30px
+	}
+
+	.arrow-up:after {
+		top: -5px
+	}
+
+	.arrow-down:after {
+		top: 5px
+	}
+
+	.menu-ul {
+		display: table
+	}
+
+	.menu-ul {
+		margin: 5px
+	}
+
+	/*  McGee Audio Player */
+	.mcgee-audio {
+		width: 200px
+	}
+
+	/*  Resource Box  */
+	.rb-width {
+		width: 185px
+	}
+}
+
+/* iPad Pro */
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+	.logo .yellow-eye {
+		position: absolute;
+		color: #deac27;
+		top: -31px;
+		left: 155px;
+		font-size: 49px
+	}
+}
+
+/* Portrait */
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
+	.logo .yellow-eye {
+		position: absolute;
+		color: #deac27;
+		top: -31px;
+		left: 155px;
+		font-size: 49px
+	}
+}
+
+/* Landscape */
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {
+	.logo .yellow-eye {
+		position: absolute;
+		color: #deac27;
+		top: -31px;
+		left: 155px;
+		font-size: 49px
+	}
+}
+
+/* For desktop: */
+@media screen and (min-width: 900px) {
+	.qr-code {
+		display: none !important
+	}
+
+	.desktop-only {
+		display: block
+	}
+
+	.d-1 {
+		width: 8.33%
+	}
+
+	.d-2 {
+		width: 16.66%
+	}
+
+	.d-3 {
+		width: 25%
+	}
+
+	.d-4 {
+		width: 32.99%
+	}
+
+	.d-5 {
+		width: 41.66%
+	}
+
+	.d-6 {
+		width: 50%
+	}
+
+	.d-7 {
+		width: 58.33%
+	}
+
+	.d-8 {
+		width: 66.66%
+	}
+
+	.d-9 {
+		width: 75%
+	}
+
+	.d-10 {
+		width: 83.33%
+	}
+
+	.d-11 {
+		width: 91.66%
+	}
+
+	.d-12 {
+		width: 100%
+	}
+
+	.bible-selector-list {
+		height: 525px;
+		width: 420px;
+		left: 30px
+	}
+
+	.header,
+	.advertisement-top,
+	.menubar,
+	.content,
+	.advertisement-bottom,
+	.footer {
+		max-width: 1200px;
+		min-width: 730px
+	}
+
+	.advertisement-top,
+	.content,
+	.advertisement-bottom {
+		border-left: 1px solid #dadada;
+		border-right: 1px solid #dadada
+	}
+
+	/*  Frequency Lists  */
+	.freq {
+		width: 100%
+	}
+
+	.parsing-list,
+	.word-list,
+	.book-list {
+		vertical-align: top;
+		border: 2px solid white
+	}
+
+	.parsing-list-title,
+	.word-list-title,
+	.book-list-title {
+		background-color: #deac27;
+		padding: 3px 10px;
+		font-size: 15px;
+		font-weight: bold
+	}
+
+	.word-list-content,
+	.book-list-content {
+		padding: 10px;
+		font-size: 13px;
+		cursor: pointer;
+		height: 200px;
+		overflow: auto
+	}
+
+	.parsing-list-content {
+		padding: 10px;
+		font-size: 13px;
+		cursor: pointer;
+		height: 86px;
+		overflow: auto
+	}
+
+	.parsing-list-content-name,
+	.word-list-content-name,
+	.book-list-content-name {
+		display: inline-block;
+		width: 80%
+	}
+
+	.parsing-list-content-number,
+	.word-list-content-number,
+	.book-list-content-number {
+		display: inline-block;
+		width: 20%;
+		text-align: right
+	}
+
+	.verse-result-content {
+		height: 95%;
+		overflow: auto
+	}
+
+	.sub-picklist ol,
+	.picklist ol {
+		display: inline;
+		font-size: 13px;
+		list-style: none;
+		margin: 0;
+		padding: 0
+	}
+
+	.sub-picklist ol {
+		font-size: 17px
+	}
+
+	.sub-picklist li,
+	.picklist li {
+		margin: 0;
+		display: inline;
+		cursor: pointer
+	}
+
+	.sub-picklist li:first-child:before,
+	.picklist li:first-child:before {
+		content: '[ '
+	}
+
+	.sub-picklist li:after,
+	.picklist li:after {
+		content: ' | '
+	}
+
+	.sub-picklist li:last-child:after,
+	.picklist li:last-child:after {
+		content: ' ]'
+	}
+
+	.arrow-up:after {
+		top: -5px
+	}
+
+	.arrow-down:after {
+		top: 5px
+	}
+
+	.menu-ul {
+		display: table
+	}
+
+	.menu-ul {
+		margin: 5px
+	}
+
+	/*  McGee Audio Player */
+	.mcgee-audio {
+		width: 350px
+	}
+
+	/*  Resource Box  */
+	.rb-width {
+		width: 200px
+	}
+}
+
+div.hebrew_word div.border_right {
+	border-right: 1px solid #C0C0C0;
+}
+
+div.hebrew_word div {
+	padding: 3px;
+}
+
+div.hebrew_word {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 15px;
+	float: right;
+	padding: 10px;
+	text-align: right;
+}
+
+div.greek_word div {
+	padding: 3px;
+}
+
+div.greek_word {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 13px;
+	float: left;
+	padding: 10px;
+	text-align: left;
+}
+
+.dotted {
+	border: 1px dotted #9895b9;

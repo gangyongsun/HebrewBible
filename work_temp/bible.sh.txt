@@ -1,0 +1,37 @@
+5
+7-78	
+817-820
+822-824
+829-870
+872
+-4	-164
+----------
+8-77		70lines
+818		748	1lines	
+823		752	1lines
+
+829-870	757-798	42lines
+872		758
+
+
+tac Genesis-6.html|sed '2,163d'|sed "2i\\<\/div><\/div><\/div>"|tac|sed '8,77d'|sed '748d'|sed '752d'|sed '757,798d'|sed '758d'|sed '/^\s*$/d' |sed '/<div class="strongs">/d'|sed 's/1<br \/>/1/g'|sed 's/2<br \/>/2/g'|sed 's/3<br \/>/3/g'|sed 's/4<br \/>/4/g'|sed 's/5<br \/>/5/g'|sed 's/6<br \/>/6/g'|sed 's/34px/15px/g'|sed 's/"olt greek-hebrew"/"olt greek-hebrew fs-19"/g'|sed 's/\.translit{/\.translit{color\:green\;/g'|sed 's/\.greek-hebrew{/\.greek-hebrew{color\:red\;/g' >new6.html
+
+===========
+
+
+sed -i '5,613d' filename	
+
+sed -i '4a\<link rel="stylesheet" type="text/css" href="../css/bible.css">' filename
+
+sed -i -E 's#<a name="(.*)" href="(.*.html)">([0-9]*)<br \/><\/a>#\3#g' filename
+
+
+
+sed '5,613d' filename	
+
+sed '4a\<link rel="stylesheet" type="text/css" href="../css/bible.css">' filename
+
+sed -E 's#<a name="(.*)" href="(.*.html)">([0-9]*)<br \/><\/a>#\3#g'
+=========
+
+sed   '$d' 1.txt
